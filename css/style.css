@@ -1,0 +1,21 @@
+html {
+  font: 20px/1.618 sans-serif;
+}
+
+p {
+  display: inline-block;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  background-color: #dddddd;
+  padding: 0;
+}
+li {
+  float: right;
+}
+a {
+  display: block;
+  padding: 8px;
+  margin: 0;
+}
