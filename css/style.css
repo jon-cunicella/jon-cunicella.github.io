@@ -15,7 +15,7 @@ html {
 a {
   /* text-decoration: none gets rid of the underline under list items */
   text-decoration: none;
-  color: #bd9391;
+  color: white;
 }
 
 a:hover {
