@@ -1,19 +1,64 @@
+/* all imports should go at the top. This was from google fonts. Press the plus and get the import link */
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
+html {
+  /* line below says font is 20px line height is 1. Donnie likes to set line height */
+  font: 20px/1 "Roboto" sans-serif;
+}
 
+a {
+  /* text-decoration: none gets rid of the underline under list items */
+  text-decoration: none;
+  color: #bd9391;
+}
 
+a:hover {
+  /* changes the color of hovering over anchor tag */
+  color: black;
+}
 
+ul {
+  list-style: none;
+}
 
+.main-header {
+  /* aligns the links in the center of the box */
+  align-items: center;
+  /* this makes the main header a flex container */
+  /* Space between only works for display flex. Takes the remaining space inside the container and puts it between the two items */
+  background-color: #6cbeed;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  /* first value is top and bottom second is left and right for padding */
+  /* rem is relative em unit. 1 rem is always root font size. and em are not fixed. They are based on the font size of the elements you're applying to */
+  /* em can be compounded. Good to use these bc if you change main font it will update */
+  padding: 1rem 2rem;
+}
+.main-header__title {
+  /* maybe change color of header title to match blue background */
+}
 
+.nav__list {
+  /* necause we want one dimensional we use flex */
+  display: flex;
+}
 
+.nav__list-item {
+  /* this will space out the 3 list items so they arent on top of each other */
+  margin-right: 0.5rem;
+}
 
-
-
-
-
-
-
-
+/* this is a pseduo selector */
+.nav__list-item:last-child {
+  margin-right: 0;
+}
 
 /* before lesson */
 /* html {
