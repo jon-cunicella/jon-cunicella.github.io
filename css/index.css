@@ -27,14 +27,35 @@ ul {
   list-style: none;
 }
 
+.hero-image {
+  align-items: center;
+  background-image: url("../images/IMG_7290.JPG");
+  /* the next line makes it so whatever viewport your on it takes up the same amount of screen. VH = viewport height */
+  display: flex;
+  /* use this for projects */
+  flex-direction: column;
+  height: 74vh;
+  justify-content: center;
+}
+
+.hero-image__title {
+  font-size: 3rem;
+  color: #bd9391;
+  margin-bottom: 3rem;
+}
+
+.hero-image__subtitle {
+  font-family: serif;
+  font-size: 1.75rem;
+  color: white;
+}
+
 .main-header {
   /* aligns the links in the center of the box */
   align-items: center;
   /* this makes the main header a flex container */
   /* Space between only works for display flex. Takes the remaining space inside the container and puts it between the two items */
   background-color: #6cbeed;
-  background-image: url("../images/catPic.JPG");
-  background-size: 95rem;
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
@@ -42,6 +63,9 @@ ul {
   /* rem is relative em unit. 1 rem is always root font size. and em are not fixed. They are based on the font size of the elements you're applying to */
   /* em can be compounded. Good to use these bc if you change main font it will update */
   padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  /* margin-bottom: 0; */
 }
 .main-header__title {
   /* maybe change color of header title to match blue background */
@@ -55,6 +79,7 @@ ul {
 .nav__list-item {
   /* this will space out the 3 list items so they arent on top of each other */
   margin-right: 0.5rem;
+  color: white;
 }
 
 /* this is a pseduo selector */
@@ -73,26 +98,3 @@ h3 {
 .project-header {
   color: black;
 }
-
-/* before lesson */
-/* html {
-  font: 20px/1.618 sans-serif;
-}
-
-p {
-  display: inline-block;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  background-color: #dddddd;
-  padding: 0;
-}
-li {
-  float: right;
-}
-a {
-  display: block;
-  padding: 8px;
-  margin: 0;
-} */
