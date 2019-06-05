@@ -33,6 +33,8 @@ ul {
   /* this makes the main header a flex container */
   /* Space between only works for display flex. Takes the remaining space inside the container and puts it between the two items */
   background-color: #6cbeed;
+  background-image: url("../images/catPic.JPG");
+  background-size: 95rem;
   display: flex;
   justify-content: space-between;
   margin-bottom: 2rem;
@@ -60,15 +62,15 @@ ul {
   margin-right: 0;
 }
 
-h3{
+h3 {
   color: #6cbeed;
 }
 
-.image-links{
+.image-links {
   color: black;
 }
 
-.project-header{
+.project-header {
   color: black;
 }
 
