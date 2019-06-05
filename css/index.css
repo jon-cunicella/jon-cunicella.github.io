@@ -27,6 +27,28 @@ ul {
   list-style: none;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 50rem;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  flex-direction: column;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-layout--three {
+  display: flex;
+  flex-direction: column;
+}
+
 .hero-image {
   align-items: center;
   background-image: url("../images/IMG_7290.JPG");
@@ -48,6 +70,10 @@ ul {
   font-family: serif;
   font-size: 1.75rem;
   color: white;
+}
+
+.column-layout {
+  display: grid;
 }
 
 .main-header {
@@ -85,14 +111,6 @@ ul {
 /* this is a pseduo selector */
 .nav__list-item:last-child {
   margin-right: 0;
-}
-
-h3 {
-  color: #6cbeed;
-}
-
-.image-links {
-  color: black;
 }
 
 .project-header {
