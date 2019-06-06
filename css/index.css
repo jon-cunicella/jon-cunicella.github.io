@@ -41,6 +41,16 @@ ul {
   flex: 0 0 32%;
   height: 50px;
   margin-bottom: 5px;
+  display: inline-flex;
+  padding-top: 2rem;
+}
+
+.project-heading {
+  padding-bottom: 2rem;
+}
+
+.article-content {
+  text-align: center;
 }
 
 .hero-image {
