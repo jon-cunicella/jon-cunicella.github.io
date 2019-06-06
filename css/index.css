@@ -46,11 +46,18 @@ ul {
 }
 
 .project-heading {
-  padding-bottom: 2rem;
+  padding-top: 2rem;
+  margin: auto;
+  padding: auto;
 }
 
 .article-content {
   text-align: center;
+  padding-top: 1rem;
+  padding-left: 5rem;
+}
+
+.hospital-image-link {
 }
 
 .hero-image {
@@ -110,7 +117,7 @@ ul {
   margin-right: 0;
 }
 
-.project-header {
+.project-link {
   color: black;
 }
 
