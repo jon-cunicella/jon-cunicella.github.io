@@ -157,10 +157,15 @@ ul {
 .portfolio-section__list--item {
   width: 30%;
   list-style-type: none;
-  display: inline-block;
+  display: flex;
+}
+
+.portfolio-section__list--item::after {
+  content: " • ";
 }
 
 .portfolio-section__list {
+  display: flex;
   padding: 0;
   padding-top: 1rem;
   margin: 0;
