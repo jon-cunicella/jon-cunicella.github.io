@@ -9,19 +9,16 @@
 }
 
 html {
-  /* line below says font is 20px line height is 1. Donnie likes to set line height */
   font: 20px/1 "Ubuntu";
   background-color: #e0e0e0;
 }
 
 a {
-  /* text-decoration: none gets rid of the underline under list items */
   text-decoration: none;
   color: white;
 }
 
 a:hover {
-  /* changes the color of hovering over anchor tag */
   color: black;
 }
 
@@ -30,38 +27,18 @@ ul {
 }
 
 .container {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-top: 10rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 8em; */
   max-width: 30rem;
   margin: 0 auto;
 }
 
 .article-container {
-  display: flex;
-  flex-direction: column;
-}
-.column-layout {
-  display: flex;
-  flex-direction: column;
-}
-
-.column-layout--three {
-  display: flex;
-  flex-direction: column;
+  display: inline;
 }
 
 .hero-image {
   align-items: center;
   background-image: url("../images/IMG_7290.JPG");
-  /* the next line makes it so whatever viewport your on it takes up the same amount of screen. VH = viewport height */
   display: flex;
-  /* use this for projects */
   flex-direction: column;
   height: 74vh;
   justify-content: center;
@@ -98,24 +75,19 @@ ul {
   padding: 1rem 2rem;
   position: fixed;
   width: 100%;
-  /* margin-bottom: 0; */
 }
 .main-header__title {
-  /* maybe change color of header title to match blue background */
 }
 
 .nav__list {
-  /* necause we want one dimensional we use flex */
   display: flex;
 }
 
 .nav__list-item {
-  /* this will space out the 3 list items so they arent on top of each other */
   margin-right: 0.5rem;
   color: white;
 }
 
-/* this is a pseduo selector */
 .nav__list-item:last-child {
   margin-right: 0;
 }
@@ -123,17 +95,6 @@ ul {
 .project-header {
   color: black;
 }
-
-/* .bio-paragraph {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-top: 10rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 8em;
-} */
 
 .external-link {
   color: #6cbeed;
