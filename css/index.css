@@ -29,7 +29,7 @@ ul {
 .container {
   max-width: 30rem;
   margin: 0 auto;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 .article-container {
   display: flex;
@@ -57,18 +57,6 @@ ul {
   padding-left: 5rem;
 }
 
-.hospital-image-link {
-}
-
-.hero-image {
-  align-items: center;
-  background-image: url("../images/IMG_7290.JPG");
-  display: flex;
-  flex-direction: column;
-  height: 74vh;
-  justify-content: center;
-}
-
 .hero-image__title {
   font-size: 3rem;
   color: #bd9391;
@@ -81,26 +69,15 @@ ul {
   color: white;
 }
 
-.column-layout {
-  display: grid;
-}
 
 .main-header {
-  /* aligns the links in the center of the box */
   align-items: center;
-  /* this makes the main header a flex container */
-  /* Space between only works for display flex. Takes the remaining space inside the container and puts it between the two items */
   background-color: #6cbeed;
   display: flex;
   justify-content: space-between;
-  /* first value is top and bottom second is left and right for padding */
-  /* rem is relative em unit. 1 rem is always root font size. and em are not fixed. They are based on the font size of the elements you're applying to */
-  /* em can be compounded. Good to use these bc if you change main font it will update */
   padding: 1rem 2rem;
   position: fixed;
   width: 100%;
-}
-.main-header__title {
 }
 
 .nav__list {
@@ -148,36 +125,21 @@ ul {
   padding-bottom: 1rem;
   text-align: center;
 }
-.portfolio-section__title {
+ .portfolio-section__title {
   padding-bottom: 1rem;
   text-align: center;
-}
-
-.portfolio-section__list--item {
-  width: 30%;
-  list-style-type: none;
-  display: flex;
-}
-
-.portfolio-section__list--item::after {
-  content: " • ";
-}
-
-.portfolio-section__list {
-  display: flex;
-  padding: 0;
-  padding-top: 1rem;
-  margin: 0;
-  white-space: wrap;
-  padding-bottom: 2rem;
-  text-align: center;
-}
+} 
 
 .portfolio__subtitle {
   text-align: center;
 }
 
+.portfolio-paragraph{
+  margin-bottom: 0;
+}
+
 .contact-paragraph {
+
 }
 
 .contact-section {
