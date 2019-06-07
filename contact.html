@@ -5,13 +5,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>About me | Jon Cunicella</title>
+    <title>Contact me | Jon Cunicella</title>
   </head>
 
   <body>
     <header class="main-header">
       <h1 class="main-header__title">
-        About Me | Jon Cunicella
+        Contact Me | Jon Cunicella
       </h1>
       <nav class="nav nav--margin-right">
         <ul class="nav__list">
@@ -22,21 +22,23 @@
       </nav>
     </header>
     <main>
-      <div>
-        <section>
-          <h1></h1>
+      <section class="contact-section">
+        <p class="contact-paragraph">
+          Name:<br />
+          <input type="text" name="userName" /><br /><br />
 
-          <!-- <h2 class="about-me__subtitle">Javascript | FullStack</h2> -->
-        </section>
-        <section>
-          <h2>Contact Me</h2>
-          <p>
-            Your name: Your Email: Message:
-          </p>
-        </section>
+          Jon:<br />
+          <input type="text" name="userEmail" /><br /><br />
 
-        <section></section>
-      </div>
+          Message:<br />
+          <textarea name="userMessage"></textarea><br /><br />
+
+          <button>Submit</button>
+        </p>
+      </section>
     </main>
   </body>
+  <!-- <footer>
+    &copy; Jon Cunicella
+  </footer> -->
 </html>

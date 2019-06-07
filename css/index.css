@@ -29,8 +29,8 @@ ul {
 .container {
   max-width: 30rem;
   margin: 0 auto;
+  margin-bottom: 5rem;
 }
-
 .article-container {
   display: flex;
   flex-wrap: wrap;
@@ -38,7 +38,7 @@ ul {
 }
 
 .project-section {
-  flex: 0 0 32%;
+  /* flex: 0 0 32%; */
   height: 50px;
   margin-bottom: 5px;
   display: inline-flex;
@@ -46,9 +46,8 @@ ul {
 }
 
 .project-heading {
-  padding-top: 2rem;
-  margin: auto;
-  padding: auto;
+  padding-top: 5rem;
+  text-align: center;
 }
 
 .article-content {
@@ -93,7 +92,6 @@ ul {
   background-color: #6cbeed;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2rem;
   /* first value is top and bottom second is left and right for padding */
   /* rem is relative em unit. 1 rem is always root font size. and em are not fixed. They are based on the font size of the elements you're applying to */
   /* em can be compounded. Good to use these bc if you change main font it will update */
@@ -178,6 +176,9 @@ ul {
   text-align: center;
 }
 
-.portfolio-paragraph {
-  
+.contact-paragraph {
+}
+
+.contact-section {
+  padding-top: 5rem;
 }
