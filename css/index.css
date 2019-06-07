@@ -106,6 +106,7 @@ ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 18em;
 }
 
 .about-me__title {
@@ -138,10 +139,15 @@ ul {
   margin-bottom: 0;
 }
 
-.contact-paragraph {
+.contact-form {
 
 }
 
 .contact-section {
-  padding-top: 5rem;
+  padding-top: 10rem;
+  text-align: center;
+}
+
+.media-image{
+  text-align: center
 }
