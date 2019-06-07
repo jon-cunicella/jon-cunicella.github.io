@@ -149,5 +149,7 @@ ul {
 }
 
 .media-image{
-  text-align: center
+  text-align: center;
+  align-content: center;
+  padding-left: 6rem;
 }
