@@ -19,8 +19,8 @@
         <nav class="nav-bar">
             <ul class="nav__list">
                 <li class="nav__list-item"><a href="index.html">Home </a></li>
-                <li class="nav__list-item"><a href="projects.html">Projects </a></li>
-                <li class="nav__list-item"><a href="contact.html">Contact </a></li>
+                <li class="nav__list-item"><a href="#project-anchor">Projects </a></li>
+                <li class="nav__list-item"><a href="#contact-anchor">Contact </a></li>
             </ul>
         </nav>
 
@@ -55,6 +55,65 @@
                         src="./images/linkedInLogo.png" alt="LinkedIn Image"></a>
             </section>
         </div class="container">
+        <div class="container">
+            <div class="article-container">
+                <div id="project-anchor">
+
+                    <h2 class="project-heading">Projects</h2>
+                    <section class="project-section">
+                        <article class="article-content">
+                            <p>
+                                <h3><a class="project-link" href="https://github.com/Chris-Ross/virtual-pet/tree/master"
+                                        target="_blank">Virtual
+                                        Pet</a> </h3>
+
+                                <a class="image-links" href="https://github.com/Chris-Ross/virtual-pet/tree/master"
+                                    target="_blank"><img src="images/virtualPet.png" alt="Virtual Pet Screenshot" /></a>
+                                This application was written in Javascript. It was tested using the Jest
+                                framework and version control was manged by git. We used an agile
+                                approach to create a virtual pet application similar to Tamagachi
+                            </p>
+                        </article>
+                        <article class="article-content">
+                            <p>
+                                <h3><a class="project-link"
+                                        href="https://github.com/jon-cunicella/highst-hospital/tree/master"
+                                        target="_blank">High Street Hospital</a></h3>
+
+                                <a class="hospital-image-link"
+                                    href="https://github.com/jon-cunicella/highst-hospital/tree/master"
+                                    target="_blank"><img src="images/highStHospital.png"
+                                        alt="High Street Hospital Screenshot" /></a>
+                                This application was written in Javascript. It was tested using the Jest
+                                framework and version control was manged by git. We used an agile
+                                approach to create a Hospital application that would keep track of
+                                employees and patients at virtual hospital.
+                            </p>
+                        </article>
+
+                    </section>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div id ="contact-anchor">
+        <section class="contact-section">
+                <form class="contact-form" method="post" action="mailto:joncunicella@gmail.com">
+                  <h2 class="contact-header">Reach out!</h2><br />
+                  <input class="input-message" type="text" size="50" placeholder="Name" name="userName" /><br /><br />
+                  <br />
+                  <input class="input-message" type="text" size="50" placeholder="Email" name="userEmail" /><br /><br />
+                  <br />
+                  <input class="input-message" type="text" size="50" placeholder="Company" name="userCompany" /><br /><br />
+          
+                  <br />
+                  <textarea name="userMessage" placeholder="Send me a message! "></textarea><br /><br />
+          
+                  <input type="submit" value="Send" />
+                </form>
+              </section>
+            </div>
     </main>
 
 </body>
