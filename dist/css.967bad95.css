@@ -17,7 +17,7 @@ html {
 }
 
 header h1 span {
-  color: #6cbeed;
+  color: #bd9391;
 }
 
 a {
@@ -27,6 +27,7 @@ a {
 .index-header {
   display: flex;
   justify-content: space-between;
+  background-color: #6cbeed;
 }
 
 .nav__list-item {
