@@ -1,1 +1,4 @@
 node_modules
+#removing config files from git
+/node_modules/
+/dist
