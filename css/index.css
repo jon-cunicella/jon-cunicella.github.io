@@ -26,6 +26,7 @@ a {
 
 .index-header {
   display: flex;
+  justify-content: space-between;
 }
 
 .nav__list-item {
