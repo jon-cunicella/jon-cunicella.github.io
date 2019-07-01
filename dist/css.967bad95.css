@@ -2,12 +2,35 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
 
-header h1 span {
-  color: #6cbeed
-}
-
-img{
+img {
   max-width: 128px;
 }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font: 20px/1 "Ubuntu";
+  background-color: #e0e0e0;
+}
+
+header h1 span {
+  color: #6cbeed;
+}
+
+a {
+  text-decoration: none;
+}
+
+.index-header {
+  display: flex;
+}
+
+.nav__list-item {
+  display: inline;
+}
+
 
 /*# sourceMappingURL=/css.967bad95.css.map */
