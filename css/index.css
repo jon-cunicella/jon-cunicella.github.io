@@ -2,3 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
 
+header h1 span {
+  color: #6cbeed
+}
