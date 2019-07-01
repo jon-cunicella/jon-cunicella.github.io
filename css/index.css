@@ -5,3 +5,7 @@
 header h1 span {
   color: #6cbeed
 }
+
+img{
+  max-width: 128px;
+}

@@ -6,4 +6,8 @@ header h1 span {
   color: #6cbeed
 }
 
+img{
+  max-width: 128px;
+}
+
 /*# sourceMappingURL=/css.967bad95.css.map */
