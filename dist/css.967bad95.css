@@ -78,10 +78,27 @@ a:hover{
 .arrow {
   text-align: center;
   margin-top: 20%;
-  position: relaative;
+  position: relative;
 }
 
-.bounce {
+.darkStyle{
+  background-color: black;
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
@@ -97,11 +114,8 @@ a:hover{
   60% {
     transform: translateY(-15px);
   }
-}
+} */
 
-.darkStyle{
-  background-color: black;
-  color: red;
-}
+
 
 /*# sourceMappingURL=/css.967bad95.css.map */

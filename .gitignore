@@ -18,8 +18,8 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 node_modules
 #removing config files from git
 /node_modules/
-./dist
-./cache
+/dist
+/cache
 
 # Runtime data
 pids
