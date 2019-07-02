@@ -25,8 +25,29 @@ a {
 }
 
 a:hover{
-  padding-top: 2rem;
   text-decoration: underline;
+}
+
+.portfolio-section{
+  max-width: 100%;
+  text-align: center;
+}
+
+.about-me__content{
+}
+
+.skills-section{
+text-align: center;
+margin: 0 auto;
+margin-top: 5rem;
+display: flex;
+flex-direction: column;
+max-width: 35%;
+
+}
+
+.tech-list{
+  /* display: grid; */
 }
 
 
