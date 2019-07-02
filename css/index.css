@@ -74,3 +74,8 @@ a:hover{
 .portfolio-section {
   text-align: center;
 }
+
+.arrow {
+  text-align: center;
+  margin: 4% 0;
+}
