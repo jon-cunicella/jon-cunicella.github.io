@@ -33,9 +33,6 @@ a:hover{
   text-align: center;
 }
 
-.about-me__content{
-}
-
 .skills-section{
 text-align: center;
 margin: 0 auto;
@@ -46,15 +43,8 @@ max-width: 35%;
 
 }
 
-.tech-list{
-  /* display: grid; */
-}
 
 
-.downArrow{
-  bottom: 45%;
-  left: 50%;
-}
 .index-header {
   display: flex;
   justify-content: space-between;
@@ -89,7 +79,9 @@ max-width: 35%;
 
 .home {
   text-align: center;
-  padding: 5rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .portfolio-section {
@@ -101,7 +93,7 @@ max-width: 35%;
   text-align: center;
   margin-top: 20%;
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
 }
 
 .darkStyle{
