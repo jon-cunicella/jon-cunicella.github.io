@@ -69,7 +69,7 @@ max-width: 35%;
 
 .home {
   text-align: center;
-  min-height: 92vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -82,7 +82,7 @@ max-width: 35%;
 .arrow {
   text-align: center;
   margin-top: 20%;
-  margin-bottom: 0;
+  padding-bottom: 5rem;
 }
 
 .darkStyle{
