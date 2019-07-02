@@ -87,18 +87,7 @@ a:hover{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* .bounce {
+.bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
@@ -114,5 +103,5 @@ a:hover{
   60% {
     transform: translateY(-15px);
   }
-} */
+}
 
