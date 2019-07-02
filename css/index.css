@@ -98,3 +98,8 @@ a:hover{
     transform: translateY(-15px);
   }
 }
+
+.darkStyle{
+  background-color: black;
+  color: red;
+}

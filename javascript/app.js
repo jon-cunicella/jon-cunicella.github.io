@@ -1,10 +1,5 @@
-function createDropdown(){
-    var x = document.getElementById("myTopnav");
-    if (x.className === "nav__list"){
-        x.className += " responsive";
-    }
-    else{
-        x.className = "nav__list"
-    }
-
+function toggleDark(){
+var element = document.getElementById("body");
+element.classList.toggle("darkStyle")
 }
+
