@@ -52,7 +52,9 @@ a:hover{
   padding: 14px 16px;
 }
 
-
+.nav__list .icon {
+  display: none;
+}
 
 .center-title{
  
