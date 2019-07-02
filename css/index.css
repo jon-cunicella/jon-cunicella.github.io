@@ -42,6 +42,14 @@ a:hover{
 
 .nav__list{
  padding: 1rem;
+ overflow: hidden;
+}
+
+.nav__list a{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
 }
 
 .center-title{
