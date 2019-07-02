@@ -24,11 +24,13 @@ a {
   text-decoration: none;
 }
 
-.bounce{
-  animation: bounce 3s infinite;
+a:hover{
+  padding-top: 2rem;
+  text-decoration: underline;
 }
+
+
 .downArrow{
-  position: fixed;
   bottom: 45%;
   left: 50%;
 }
@@ -38,8 +40,20 @@ a {
   background-color: #6cbeed;
 }
 
+.nav__list{
+ padding: 1rem;
+}
+
+.center-title{
+ 
+  align-self: center;
+}
+
+
+
 .nav__list-item {
   display: inline;
+  
 }
 
 .home {
