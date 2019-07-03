@@ -24,31 +24,28 @@ a {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
-p{
+p {
   position: relative;
 }
 
-#about{
+#about {
   max-width: 100%;
   text-align: center;
 }
 
-.skills-section{
-text-align: center;
-margin: 0 auto;
-margin-top: 5rem;
-display: flex;
-flex-direction: column;
-max-width: 35%;
-/* margin: 1rem; */
-
+.skills-section {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 35%;
+  /* margin: 1rem; */
 }
-
-
 
 .index-header {
   display: flex;
@@ -56,20 +53,20 @@ max-width: 35%;
   background-color: #6cbeed;
 }
 
-.nav__list{
- padding: 1rem;
+.nav__list {
+  padding: 1rem;
 }
 
 .nav__list .icon {
   display: none;
 }
 
-.center-title{ 
+.center-title {
   align-self: center;
 }
 
 .nav__list-item {
-  display: inline;  
+  display: inline;
 }
 
 .home {
@@ -89,11 +86,10 @@ max-width: 35%;
   margin-top: 18rem;
 }
 
-.darkStyle{
+.darkStyle {
   background-color: black;
   color: red;
 }
-
 
 .bounce {
   -moz-animation: bounce 2s infinite;
@@ -102,7 +98,11 @@ max-width: 35%;
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
   40% {
@@ -113,49 +113,45 @@ max-width: 35%;
   }
 }
 
-.tech-image{
+.tech-image {
   margin: 1rem;
 }
 
-
-.social-media__image{
-  max-width:2rem;
-
+.social-media__image {
+  max-width: 2rem;
 }
-.social-media{
-  display: block;;
+.social-media {
+  display: block;
 }
 
-.hero-header{
-  font-size:5rem;
-  float: left;
-  margin-right: 5rem;
+.hero-header {
+  font-size: 5rem;
+  /* float: left; */
+  /* margin-right: 5rem; */
 }
 
-
-.links{
-  float: left;
+.links {
+  /* float: left; */
 }
 
-.hero-paragraph{
-  float: left;
-
-
+.hero-paragraph {
+  /* float: left; */
 }
 
-.hero-container{
-  float: left;
+.hero-container {
+  /* float: left; */
+  display: flex;
+  flex-direction: column;
 }
 
-p{
+p {
 }
 
-.hero-container{
+.hero-container {
   max-width: 50%;
   align-self: center;
-  transform: translateY(20vh)
+  transform: translateY(20vh);
 }
-
 
 
 /*# sourceMappingURL=/css.967bad95.css.map */
