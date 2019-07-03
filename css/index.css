@@ -152,19 +152,30 @@ p {
 .review-site {
   background-color: #6cbeed;
   display: flex;
+  height: 95vh;
 }
 
 .blog-site {
   background-color: #bd9391;
   display: flex;
+  height: 100vh;
 }
 
 .virtual-pet {
   background-color: #6cbeed;
   display: flex;
+  height: 100vh;
 }
 
 .highst-hospital {
   background-color: #bd9391;
   display: flex;
+  height: 100vh;
+}
+.about-container {
+  height: 100vh;
+}
+
+.skills-arrow {
+  transform: translateY(-30vh);
 }
