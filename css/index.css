@@ -143,3 +143,24 @@ p {
   transform: translateY(20vh);
   align-self: center;
 }
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-site {
+  background-color: #6cbeed;
+}
+
+.blog-site {
+  background-color: #bd9391;
+}
+
+.virtual-pet {
+  background-color: #6cbeed;
+}
+
+.highst-hospital {
+  background-color: #bd9391;
+}
