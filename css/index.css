@@ -51,6 +51,9 @@ p {
   display: flex;
   justify-content: space-between;
   background-color: #6cbeed;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
 }
 
 .nav__list {
@@ -126,14 +129,17 @@ p {
 
 .hero-header {
   font-size: 5rem;
+  color: #6cbeed;
 }
 
 .links {
   align-self: flex-start;
+  padding-top: 0.5rem;
 }
 
 .hero-paragraph {
   align-self: flex-start;
+  font-size: 1.5rem;
 }
 
 .hero-container {
@@ -156,7 +162,6 @@ p {
 }
 
 .blog-site {
-  background-color: #bd9391;
   display: flex;
   height: 100vh;
 }
@@ -168,14 +173,32 @@ p {
 }
 
 .highst-hospital {
-  background-color: #bd9391;
   display: flex;
   height: 100vh;
 }
 .about-container {
   height: 100vh;
+  /* margin-top: 10rem; */
 }
 
 .skills-arrow {
-  transform: translateY(-30vh);
+  transform: translateY(-35vh);
+}
+
+.skills-title {
+  font-size: 2rem;
+  color: #6cbeed;
+  padding-bottom: 2rem;
+}
+
+.about-me__subheading {
+  font-size: 2rem;
+  color: #6cbeed;
+  padding-top: 1rem;
+}
+
+.about-me__content {
+  font-size: 1.5rem;
+}
+.about-me__content {
 }
