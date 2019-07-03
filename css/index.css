@@ -40,7 +40,7 @@ p {
 .skills-section {
   text-align: center;
   margin: 0 auto;
-  margin-top: 5rem;
+  margin-top: 3rem;
   display: flex;
   flex-direction: column;
   max-width: 35%;
@@ -178,7 +178,6 @@ p {
 }
 .about-container {
   height: 100vh;
-  /* margin-top: 10rem; */
 }
 
 .skills-arrow {
@@ -188,13 +187,13 @@ p {
 .skills-title {
   font-size: 2rem;
   color: #6cbeed;
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 
 .about-me__subheading {
   font-size: 2rem;
   color: #6cbeed;
-  padding-top: 1rem;
+  padding-top: 5%;
 }
 
 .about-me__content {
