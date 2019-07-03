@@ -120,6 +120,10 @@ max-width: 35%;
 
 .social-media__image{
   max-width:2rem;
+
+}
+.social-media{
+  display: block;;
 }
 
 .hero-header{
