@@ -28,6 +28,10 @@ a:hover{
   text-decoration: underline;
 }
 
+p{
+  position: relative;
+}
+
 #about{
   max-width: 100%;
   text-align: center;
@@ -112,4 +116,20 @@ max-width: 35%;
 .tech-image{
   margin: 1rem;
 }
+
+.hero-header{
+  font-size:5rem;
+}
+
+.social-media__image{
+  max-width:2rem;
+}
+
+.links{
+}
+
+.hero-paragraph{
+  
+}
+
 
