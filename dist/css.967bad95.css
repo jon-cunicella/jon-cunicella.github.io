@@ -40,6 +40,7 @@ margin-top: 5rem;
 display: flex;
 flex-direction: column;
 max-width: 35%;
+/* margin: 1rem; */
 
 }
 
@@ -106,6 +107,10 @@ max-width: 35%;
   60% {
     transform: translateY(-15px);
   }
+}
+
+.tech-image{
+  margin: 1rem;
 }
 
 
