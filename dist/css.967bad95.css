@@ -141,6 +141,7 @@ p{
 .hero-container{
   max-width: 50%;
   align-self: center;
+  transform: translateY(20vh)
 }
 
 
