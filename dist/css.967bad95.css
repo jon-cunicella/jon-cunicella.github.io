@@ -117,13 +117,17 @@ max-width: 35%;
   margin: 1rem;
 }
 
-.hero-header{
-  font-size:5rem;
-}
 
 .social-media__image{
   max-width:2rem;
 }
+
+.hero-header{
+  font-size:5rem;
+  float: left;
+  margin-right: 5rem;
+}
+
 
 .links{
   float: left;
@@ -134,8 +138,12 @@ max-width: 35%;
 
 }
 
+.hero-container{
+  float: left;
+}
+
 p{
-  /* float: left; */
+  float: left;
 }
 
 .hero-container{
