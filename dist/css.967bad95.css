@@ -151,18 +151,22 @@ p {
 
 .review-site {
   background-color: #6cbeed;
+  display: flex;
 }
 
 .blog-site {
   background-color: #bd9391;
+  display: flex;
 }
 
 .virtual-pet {
   background-color: #6cbeed;
+  display: flex;
 }
 
 .highst-hospital {
   background-color: #bd9391;
+  display: flex;
 }
 
 
