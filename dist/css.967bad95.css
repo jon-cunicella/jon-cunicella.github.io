@@ -126,31 +126,22 @@ p {
 
 .hero-header {
   font-size: 5rem;
-  /* float: left; */
-  /* margin-right: 5rem; */
 }
 
 .links {
-  /* float: left; */
+  align-self: flex-start;
 }
 
 .hero-paragraph {
-  /* float: left; */
+  align-self: flex-start;
 }
 
 .hero-container {
-  /* float: left; */
   display: flex;
   flex-direction: column;
-}
-
-p {
-}
-
-.hero-container {
-  max-width: 50%;
-  align-self: center;
+  justify-content: flex-end;
   transform: translateY(20vh);
+  align-self: center;
 }
 
 
