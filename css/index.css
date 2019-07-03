@@ -126,10 +126,20 @@ max-width: 35%;
 }
 
 .links{
+  float: left;
 }
 
 .hero-paragraph{
-  
+  /* float: left; */
+
 }
 
+p{
+  /* float: left; */
+}
+
+.hero-container{
+  max-width: 50%;
+  align-self: center;
+}
 
