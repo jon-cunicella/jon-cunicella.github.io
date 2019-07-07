@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 p {
@@ -129,7 +129,7 @@ p {
 
 .hero-header {
   font-size: 5rem;
-  color: #6cbeed;
+  /* color: #6cbeed; */
 }
 
 .links {
@@ -158,23 +158,23 @@ p {
 .review-site {
   background-color: #6cbeed;
   display: flex;
-  height: 95vh;
+  height: 50vh;
 }
 
 .blog-site {
   display: flex;
-  height: 100vh;
+  height: 50vh;
 }
 
 .virtual-pet {
   background-color: #6cbeed;
   display: flex;
-  height: 100vh;
+  height: 50vh;
 }
 
 .highst-hospital {
   display: flex;
-  height: 100vh;
+  height: 50vh;
 }
 .about-container {
   height: 100vh;
@@ -186,13 +186,13 @@ p {
 
 .skills-title {
   font-size: 2rem;
-  color: #6cbeed;
+  /* color: #6cbeed; */
   /* padding-bottom: 2rem; */
 }
 
 .about-me__subheading {
   font-size: 2rem;
-  color: #6cbeed;
+  /* color: #6cbeed; */
   padding-top: 5%;
 }
 
