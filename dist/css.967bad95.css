@@ -163,31 +163,30 @@ p {
 .review-site {
   background-color: #6cbeed;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 50vh;
 }
 
 .blog-site {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 50vh;
 }
 
 .virtual-pet {
   background-color: #6cbeed;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 50vh;
 }
 
 .highst-hospital {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 50vh;
 }
 
 .project {
-  justify-content: space-between;
   align-items: center;
 }
 
