@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
 
 img {
-  max-width: 128px;
+  /* max-width: 128px; */
 }
 * {
   box-sizing: border-box;
@@ -118,6 +118,7 @@ p {
 
 .tech-image {
   margin: 1rem;
+  max-width: 128px;
 }
 
 .social-media__image {
@@ -158,23 +159,35 @@ p {
 .review-site {
   background-color: #6cbeed;
   display: flex;
+  justify-content: space-between;
   height: 50vh;
 }
 
 .blog-site {
   display: flex;
+  justify-content: space-between;
   height: 50vh;
 }
 
 .virtual-pet {
   background-color: #6cbeed;
   display: flex;
+  justify-content: space-between;
   height: 50vh;
 }
 
 .highst-hospital {
   display: flex;
+  justify-content: space-between;
   height: 50vh;
+}
+
+.preview-image {
+}
+
+.project-info {
+}
+.info-description {
 }
 .about-container {
   height: 100vh;
