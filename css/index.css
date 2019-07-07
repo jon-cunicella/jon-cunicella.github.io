@@ -182,6 +182,11 @@ p {
   height: 50vh;
 }
 
+.project {
+  justify-content: space-between;
+  align-items: center;
+}
+
 .preview-image {
 }
 
