@@ -32,6 +32,10 @@ p {
   position: relative;
 }
 
+ul {
+  list-style-type: none;
+}
+
 #about {
   max-width: 100%;
   text-align: center;
@@ -159,6 +163,9 @@ p {
 .project-image {
   max-width: 75%;
 }
+.project-image__small {
+  max-width: 200%;
+}
 
 .review-site {
   background-color: #6cbeed;
@@ -197,13 +204,18 @@ p {
 .project-info {
 }
 .info-description {
+  max-width: 50%;
+}
+
+.info-technology {
+  display: inline;
 }
 .about-container {
   height: 100vh;
 }
 
 .skills-arrow {
-  transform: translateY(-46vh);
+  transform: translateY(-35vh);
 }
 
 .skills-title {
