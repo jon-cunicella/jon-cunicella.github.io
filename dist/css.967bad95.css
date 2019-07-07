@@ -156,6 +156,10 @@ p {
   flex-direction: column;
 }
 
+.project-image {
+  max-width: 75%;
+}
+
 .review-site {
   background-color: #6cbeed;
   display: flex;
@@ -188,6 +192,7 @@ p {
 }
 
 .preview-image {
+  max-width: 50%;
 }
 
 .project-info {
