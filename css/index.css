@@ -50,6 +50,12 @@ ul {
   transform: translateY(-35vh);
 }
 
+.arrow {
+  text-align: center;
+  margin-top: 32vh;
+}
+
+
 .skills-title {
   font-size: 4vh;
 }
@@ -92,10 +98,6 @@ ul {
   margin-top: 0;
 }
 
-.arrow {
-  text-align: center;
-  margin-top: 50vh;
-}
 
 .darkStyle {
   background-color: #121212;
