@@ -40,7 +40,7 @@ ul {
 .skills-section {
   text-align: center;
   margin: 0 auto;
-  margin-top: 3rem;
+  margin-top: 5vh;
   display: flex;
   flex-direction: column;
   max-width: 50vw;
@@ -51,7 +51,7 @@ ul {
 }
 
 .skills-title {
-  font-size: 2rem;
+  font-size: 4vh;
 }
 
 
@@ -220,12 +220,12 @@ ul {
 
 
 .about-me__subheading {
-  font-size: 2rem;
-  padding-top: 5%;
+  font-size: 4vh;
+  padding-top: 10vh;
 }
 
 .about-me__content {
-  font-size: 1.5rem;
+  font-size: 3vh;
 }
 
 input[type="text"]::placeholder {
