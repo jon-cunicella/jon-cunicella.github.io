@@ -126,7 +126,7 @@ ul {
 
 .tech-image {
   margin: 1rem;
-  max-width: 5vw;
+  max-width: 10vw;
 }
 
 .social-media__image {
@@ -205,8 +205,7 @@ ul {
   max-width: 50%;
 }
 
-.project-info {
-}
+
 .info-description {
   max-width: 50%;
 }
