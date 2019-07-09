@@ -47,6 +47,7 @@ ul {
 }
 
 .skills-arrow {
+  transform: translateY(-45vh);
 }
 
 .arrow {
@@ -127,8 +128,8 @@ ul {
 }
 
 .tech-image {
-  margin: 1rem;
-  max-width: 10vw;
+  margin: 1vh;
+  max-width: 8vw;
 }
 
 .social-media__image {
@@ -150,7 +151,7 @@ ul {
 
 .hero-paragraph {
   align-self: flex-start;
-  font-size: 1.5vh;
+  font-size: 3vh;
 }
 
 .hero-container {
@@ -167,7 +168,7 @@ ul {
 }
 
 .project-image {
-  max-width: 75%;
+  max-width: 45vw;
 }
 .project-image__small {
   max-width: 200%;
