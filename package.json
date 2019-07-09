@@ -13,7 +13,8 @@
   "scripts": {
     "test": "jest --colors",
     "start": "parcel index.html",
-    "predeploy": "rm -rf dist && parcel build index.html"
+    "predeploy": "rm -rf dist && parcel build index.html",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
