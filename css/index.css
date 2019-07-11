@@ -247,6 +247,26 @@ input[type="text"]::placeholder {
   text-align: center;
 }
 
+.footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: #6cbeed;
+  height: 12vh;
+}
+
+.footer-email{
+  font-size: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-email__link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 600px) {
   body {
     /* width: 100%; */
