@@ -177,21 +177,18 @@ ul {
 .review-site {
   background-color: #6cbeed;
   display: flex;
-  justify-content: space-around;
-  height: 50vh;
+  justify-content: space-between;
 }
 
 .blog-site {
   display: flex;
-  justify-content: space-around;
-  height: 50vh;
+  justify-content: space-between;
 }
 
 .virtual-pet {
   background-color: #6cbeed;
   display: flex;
   justify-content: space-around;
-  height: 50vh;
 }
 
 .highst-hospital {
@@ -214,7 +211,6 @@ ul {
 }
 
 .project-info{
-  max-width: 75%;
   display: flex;
   flex-direction: column;
   justify-content: center;
