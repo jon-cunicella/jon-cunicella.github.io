@@ -250,6 +250,12 @@ input[type="text"]::placeholder {
 @media screen and (max-width: 600px) {
   body {
     /* width: 100%; */
+    font-size: 1vh;
+  }
+
+  .project-info{
+    max-width: 25vh;
+    padding-top: 2vh;
   }
 
   .index-header{
