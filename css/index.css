@@ -250,7 +250,6 @@ input[type="text"]::placeholder {
 @media screen and (max-width: 600px) {
   body {
     /* width: 100%; */
-    font-size: 1vh;
   }
 
   .project-info{
@@ -272,6 +271,8 @@ input[type="text"]::placeholder {
 
   .project{
     /* max-width: 50vh */
+    font-size: 1vh;
+
   }
 }
 
@@ -281,8 +282,20 @@ input[type="text"]::placeholder {
   }
 
   .index-header{
-   width: 100%
+   /* width: 100% */
   }
     
 
+}
+
+@media screen and (max-width: 375px){
+  html{
+    width: 100%;
+  }
+
+  .index-header{
+    width: 100vw
+  }
+
+   
 }
