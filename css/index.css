@@ -194,7 +194,7 @@ ul {
 .highst-hospital {
   display: flex;
   justify-content: space-around;
-  height: 50vh;
+  /* height: 50vh; */
 }
 
 .project {
@@ -277,6 +277,10 @@ input[type="text"]::placeholder {
     padding-top: 2vh;
   }
 
+  .nav__list{
+    
+  }
+
   .index-header{
     /* width: 100% */
   }
@@ -304,9 +308,30 @@ input[type="text"]::placeholder {
   .index-header{
    /* width: 100% */
   }
+  
+  .info-technology{
+    padding: 2rem;
+  }
 
   .tech-image{
     max-width: 7vh
+  }
+
+  .project{
+    max-width: 100%;
+    font-size: 1.5vh;
+  }
+
+  .project-image{
+    /* max-width: 100%; */
+  }
+
+  .footer{
+    font-size: 2vh
+  }
+
+  .footer-email{
+    font-size: 2vh;
   }
     
 
