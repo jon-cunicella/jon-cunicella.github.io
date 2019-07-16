@@ -223,6 +223,7 @@ ul {
 
 .info-technology__list{
   display: flex;
+  align-items: center;
   justify-content: space-between;
   }
 
@@ -268,35 +269,32 @@ input[type="text"]::placeholder {
 }
 
 @media screen and (max-width: 600px) {
-  body {
-    /* width: 100%; */
-  }
+
+  .info-technology__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
 
   .project-info{
     max-width: 25vh;
     padding-top: 2vh;
+    margin: 0 auto;
   }
 
-  .nav__list{
-    
-  }
-
-  .index-header{
-    /* width: 100% */
-  }
-
-  .hero-container{
-    /* text-align: center; */
-  }
-
-  .home{
-    /* text-align: center; */
-  }
-
-  .project{
-    /* max-width: 50vh */
+  .projet{
     font-size: 1vh;
+  }
 
+  .info-technology{
+    display: flex;
+  }
+
+  .info-description{
+    text-align: center;
+  }
+
+  .project-section{
   }
 }
 
