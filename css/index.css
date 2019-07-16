@@ -304,6 +304,10 @@ input[type="text"]::placeholder {
   .index-header{
    /* width: 100% */
   }
+
+  .tech-image{
+    max-width: 7vh
+  }
     
 
 }
@@ -314,8 +318,9 @@ input[type="text"]::placeholder {
   }
 
   .index-header{
-    width: 100vw
+    width: 100%
   }
+
 
    
 }
