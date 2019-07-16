@@ -333,6 +333,10 @@ input[type="text"]::placeholder {
   .footer-email{
     font-size: 2vh;
   }
+
+  .info-technology__list-item{
+    padding: .5rem;
+  }
     
 
 }
