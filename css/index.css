@@ -301,16 +301,12 @@ input[type="text"]::placeholder {
 }
 
 @media screen and (max-width: 900px) {
-  body {
-    /* width: 100%; */
-  }
-
-  .arrow {
   
+  .arrow {
     margin-top: 45vh;
   }
   .index-header{
-   /* width: 100% */
+   max-width: 100%
   }
   
   .info-technology{
@@ -347,14 +343,14 @@ input[type="text"]::placeholder {
 }
 
 @media screen and (max-width: 375px){
-  html{
-    width: 100%;
+ 
+
+  *{
+    max-width: 100%;
   }
+
 
   .index-header{
-    width: 100%
+    /* width: 100vw; */
   }
-
-
-   
 }
