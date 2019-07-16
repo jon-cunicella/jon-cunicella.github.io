@@ -305,6 +305,10 @@ input[type="text"]::placeholder {
     /* width: 100%; */
   }
 
+  .arrow {
+  
+    margin-top: 45vh;
+  }
   .index-header{
    /* width: 100% */
   }
@@ -337,6 +341,7 @@ input[type="text"]::placeholder {
   .info-technology__list-item{
     padding: .5rem;
   }
+  
     
 
 }
