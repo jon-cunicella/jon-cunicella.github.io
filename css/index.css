@@ -157,8 +157,7 @@ ul {
 }
 
 .projects {
-  display: flex;
-  flex-direction: column;
+  display: grid;
 }
 
 .project-image {
@@ -168,8 +167,7 @@ ul {
   max-width: 200%;
 }
 
-.review-site {
-  background-color: #6cbeed;
+.api-site {
   display: flex;
   justify-content: space-between;
 }
@@ -177,9 +175,10 @@ ul {
 .blog-site {
   display: flex;
   justify-content: space-between;
+  background-color: #6cbeed;
 }
 
-.virtual-pet {
+.date-site {
   background-color: #6cbeed;
   display: flex;
   justify-content: space-around;
@@ -287,9 +286,6 @@ input[type="text"]::placeholder {
 
   .info-description {
     text-align: center;
-  }
-
-  .project-section {
   }
 }
 
